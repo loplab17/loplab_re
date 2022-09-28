@@ -1,0 +1,248 @@
+
+
+/*========================== section01 (main)========================== */
+
+/* 메인슬라이드 아이콘 */
+#section01 .scroll_down{
+    position:fixed;
+    z-index:999;
+    left:50%; bottom:3%;
+}
+#section01 .contact {
+    position:fixed;
+    z-index:999;
+    right:5%; bottom:5%;
+}
+#section01 .scroll_txt {
+    position:fixed;
+    z-index:999;
+    left:5%; bottom:5%;
+    transform:rotate(-90deg);
+}
+#section01 .scroll_txt span{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight:300;
+}
+#section01 .scroll_txt span::before{
+    content:'';
+    width:125px; height:2px;
+    background-color: #000000;
+    display: block;
+    margin:14px 5px 0 0;
+}
+/* 메인슬라이드 아이콘 끝 */
+
+/*========================== section02 ========================== */
+#section02 .title{
+    margin-bottom:150px;
+}
+
+#section02 .buisness{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+}
+#section02 .buisness article{
+    text-align: center;
+    font-size:1.2rem;
+    padding:100px 10px;
+    transition: 0.3s;
+}
+#section02 .buisness article h4{
+    font-size:2.2rem;
+    margin-bottom: 40px;
+}
+ #section02 .buisness article span img {
+    margin-bottom: 20px;
+ }
+#section02 .buisness article p{
+    letter-spacing:-2px;
+}
+#section02 .buisness article:hover{
+    background:#C24747;
+    color:#ffffff;
+    border-radius: 30px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+#section02 {
+    background:url(../img/background_01.svg) no-repeat right;
+    background-size:30%;
+    padding-bottom:150px;
+}
+/*========================== section02 끝 ======================== */
+/*========================== section03 ========================== */
+
+#section03{ position: relative;}
+#section03 .portfolio_wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#section03 .portfolio_wrap, #section03 .portfolio_wrap ul 
+{margin-bottom:80px;
+}
+
+#section03 .portfolio_wrap ul li{
+    float: left;
+    font-size:1.4rem;
+    font-weight:600;
+    letter-spacing:-3px;
+    margin-right:50px;
+}
+#section03 .portfolio_wrap ul li{
+    padding:20px 30px;
+    cursor:pointer;
+    border-radius:50px;
+}
+
+#section03 .portfolio_wrap ul li.active{
+    background: #C24747;
+    color:#ffffff;
+    border-radius:50px;
+}
+#section03 .portfolio .itemBox.hide {display:none;}
+
+/*========================== section03 끝 ======================== */
+/*========================== section04 ========================== */
+#section04 .clients{
+   text-align: center;
+   margin-bottom: 50px;
+
+}
+/*========================== section04 끝 ========================== */
+/*========================== section05 ========================== */
+
+#section05 {
+    background-image: url(../img/background_02.svg);
+    background-repeat: no-repeat;
+    background-position:left center;
+    padding:150px 0;
+}
+#section05 .inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#section05 .contact h3 {
+    font-size: 5.6rem;
+    line-height:80px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#section05 .title h3:nth-of-type(2)::after{
+    content:'';
+    display: inline-block;
+    width:90px; height:6px;
+    background: #383838;
+    margin-bottom:30px;
+    margin-left:20px;
+    position: absolute;
+    top: 50%; left:30%;
+    transform: translate(-50%, 0%);
+}
+#section05 .title h3:nth-of-type(2)::before{
+    content:'';
+    display: block;
+    background-image:url(../icon/ic_local.png);
+    width:53px;height:83px;
+    position: absolute;
+    top: 0; left:50%;
+}
+
+
+#section05 .contact_wrap .contact_btn{
+    background-color:#383838;
+    border-radius:300px;
+    width:380px; height:380px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+#section05 .contact_wrap .contact_btn a ,  #section05 .contact_wrap .contact_btn span{
+    display: block;
+    color: #fff;
+    font-size:3rem;
+    font-weight: 700;
+    line-height:55px;
+    letter-spacing: -5px;
+}
+#section05 .contact_wrap .contact_btn span {
+    margin:20px 0;
+}
+
+/*========================== section05 ========================== */
+#section06 {
+    margin-bottom: 200px;
+}
+#section06 .community{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+}
+#section06 .community .video {
+    width:55%;
+}
+#section06 .community .short {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width:40%;
+}
+#section06 .community .short a{
+    display: block;
+    text-align: center;
+    color:#ffffff; 
+    border-radius:40px;
+    font-size:2.2rem;
+    font-weight:600;
+    letter-spacing:-5px;
+    position: relative;
+    padding:79px 0;
+}
+
+#section06 a.notice {
+    margin-bottom:40px;
+    background-color:#C24747;
+}
+#section06 a.hire{
+ background-color: #383838;
+}
+
+#section06 .community .notice p::before{
+    content:'';
+    display:block;
+    width:70px;height:70px;
+    background:url('../icon/ic_notice.png') no-repeat;
+    position: absolute;
+    top:50%; left:10%;
+    transform: translate(0, -50%);
+}
+#section06 .community .hire p::before{
+    content:'';
+    display:block;
+    width:70px;height:70px;
+    background:url('../icon/ic_employee.png') no-repeat;
+    position: absolute;
+    top:50%; left:10%;
+    transform: translate(0, -50%);
+}
+#section06 .community .notice p::after,
+#section06 .community .hire p::after{
+    content:'';
+    display:block;
+    width:70px;height:70px;
+    background:url('../icon/ic_arrow_right2.svg') no-repeat;
+    position: absolute;
+    top:50%; right:10%;
+    transform: translate(0, -50%);
+}
+
+
+
+

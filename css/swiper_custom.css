@@ -1,0 +1,207 @@
+/*스와이퍼 슬라이드 기본 옵션 */
+
+/*===================== 메인슬라이드 (swiper1) ==========================*/
+.swiper1 {
+width: 100%;
+/* height: 100%; */
+}
+
+.swiper1 .swiper-slide {
+text-align: center; 
+background: #fff;
+
+/* Center slide text vertically */
+display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+}
+
+.swiper1 .swiper-slide img {
+display: block;
+object-fit: cover;
+}
+
+    /* 메인슬라이드 (swiper1)커스텀  */
+
+    .swiper1 {
+    margin:0 auto;
+    width:100%;
+    height:108vh;
+    overflow: hidden;
+    }
+    .swiper1 .swiper-slide {
+    position: relative;
+    width:100%;height:108vh;
+    overflow: hidden;
+    }
+
+    .m_slide1, .m_slide2, .m_slide3{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+    }
+
+    .swiper1 .title{
+    text-align: left;
+    width:100%;
+    z-index:999;
+    }
+    .swiper1 .title h2{
+    font-family:'notosans_b';
+    font-size:3rem;
+    font-weight: 600;
+    letter-spacing:-5px;
+    margin-bottom: 30px;
+    }
+
+    .swiper1 .m_slide2 .imgBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .swiper1 .m_slide2 .imgBox > div{
+    margin:0 0 0 30px;
+    }
+    .swiper1 .m_slide2 .imgBox > div img:first-child{
+    margin-bottom:35px;
+    border-radius: 0px 0px 50px 50px;
+    }
+    .swiper1 .m_slide2 .imgBox > div img:last-child{
+    border-radius: 50px 50px 0px 0px;
+    }
+    .swiper1 .m_slide3 {
+    position: relative;
+    }
+    .swiper1 .swiper-slide .imgBox{   
+    overflow: hidden;
+    position: absolute;
+    right:0;
+    max-width: 1920px; 
+    }
+    .swiper1 .m_slide3 .imgBox{
+    border-radius: 0px 0px 0px 40%;
+    }
+    .swiper1 .m_slide3 .imgBox img{
+    width: 100%;
+    }
+    .swiper1  .swiper-pagination {
+    display:none;
+    }
+    /* 메인슬라이드 (swiper1)커스텀 끝 */
+/*===================== 메인슬라이드 (swiper1) 끝==========================*/
+
+/*====================== 포트폴리오 슬라이드 (swiper2)====================*/
+
+.swiper2 .swiper-slide {
+text-align: center;
+background: #fff;
+
+/* Center slide text vertically */
+display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+}
+
+.swiper2 .swiper-slide img {
+display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+    /*swiper2 커스텀 */
+    .swiper2 .swiper-wrapper {
+    width:auto;
+    margin:0 auto;
+    }
+    .swiper2 .swiper-slide{
+    width:480px!important;
+    height:480px!important;
+    cursor:pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    }
+
+    .swiper2 .swiper-slide img  {
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    transition:0.3s;
+    }
+    .swiper2 .swiper-slide h3{
+    font-size:1.5rem;
+    padding:15px 0;
+    margin-top:10px;
+    letter-spacing:-2px;
+    }
+    .swiper2 .swiper-slide h3::before{
+    content:'';
+    display: block;
+    width:8px; height:30px;
+    background: #383838;
+    margin-right: 10px;
+    float: left;
+    }
+
+    .swiper2 .swiper-slide:hover img {
+    transform:scale(105%);
+
+    }
+    .swiper2 .swiper-scrollbar {
+    position: absolute;
+    left: 50%; bottom:-50px;
+    max-width:1480px;
+    margin: 0 auto;
+    transform: translate(-50%, 0);
+    z-index: 50;
+    height: 5px;
+    }
+
+    .swiper2 .swiper-button-next:after, .swiper2 .swiper-button-prev:after {content: '';} 
+    .swiper2 .swiper-button-prev {
+    background: url(../icon/ic_prev.png) no-repeat;
+    background-position:center;
+    width:60px;height:60px;
+    position: absolute;
+    margin: 0 auto;
+    }
+    .swiper2 .swiper-button-next {
+    background: url(../icon/ic_next.png) no-repeat;
+    background-position:center;
+    width:60px;height:60px;
+    right:0;
+    }
+    /* swiper2커스텀 끝 */
+    
+/*====================== 포트폴리오 슬라이드 (swiper2) 끝==================*/
+
+/* =================클라이언트 슬라이드 (swiper3) ================= */
+.swiper3 {
+    width: 100%;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    }
+.swiper3 .swiper-slide {
+    text-align: center;
+    }
+/* =================클라이언트 슬라이드 (swiper3) 끝 ================= */

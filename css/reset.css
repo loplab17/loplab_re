@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/* CSS 리셋*/
+
+*{margin:0; padding: 0;}
+ul, ol, li {list-style: none;}
+img{border:none; vertical-align: middle}
+a{text-decoration:none; color:inherit;}
+hr {clear:both;border:none}
+a {color:inherit;text-decoration:none}
+table{border-collapse:collapse}
+input, textarea {
+       color:inherit;font-size:inherit;
+       font-family:inherit;
+       vertical-align: middle;}
+button{outline:0; border:none; background:transparent;}
+
+/* 폰트선언 */
+@font-face {
+    font-family:'notosans';
+    src: url(../font/NotoSansKR-Regular.woff) format('embedded-opentype');
+    font-weight:300;
+}
+@font-face {
+    font-family:'notosans_m';
+    src: url(../font/NotoSansKR-Medium.woff)format('embedded-opentype'),;
+    font-weight:400;
+}
+@font-face {
+    font-family:'notosans_b';
+    src: url(../font/NotoSansKR-Bold.woff)format('embedded-opentype'),;
+    font-weight:600;
+}
+@font-face {
+    font-family:'notosans_l';
+    src:  url(../font/NotoSansKR-Light.woff)format('embedded-opentype'),;
+    font-weight:100;
+}
+
+
+
+html{font-size:16px;}
+body {
+    font-family:'notosans', san-serif ;
+    font-size: 16px;
+    font-weight:300;
+    color:#323232;
+}
