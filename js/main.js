@@ -55,8 +55,6 @@ var swiper2 = new Swiper(".swiper2", {
 
   
 
-
-
 //클라이언트 슬라이드
 var swiper3 = new Swiper(".swiper3", {
     slidesPerView: 6,
@@ -81,7 +79,10 @@ var swiper3 = new Swiper(".swiper3", {
     1024: {
       slidesPerView: 4,
       },
-    1025: {
+    1300: {
+      slidesPerView: 5,
+      },
+    1600: {
       slidesPerView: 6,
     }
   }
@@ -176,8 +177,10 @@ let arryPort = [
     { 'name': '네일스카이', 'item': 'web' },//네일스카이(web)
 ];
 
+//name의 파일명은 실제 파일명과 동일하게 작성해주세요. 하단의 제목(h3)부분에 배열의 name으로 출력됩니다. 
+// 따라서 포트폴리오 썸네일의 제목은 실제로 웹사이트에서 출력해야할 파일명의 이름과 동일하게 지어야 합니다. (thum_01 이런 이름X) 
+
 //배열을 담을 배열
- 
 let showingArry = [];
 
 
@@ -226,9 +229,6 @@ $(function () {
         })
     })//click
   
-
-  
-
 })//ready
 
 /*===========================포트폴리오 슬라이드 필터 끝==============================*/

@@ -126,7 +126,11 @@
 #section05 .inner{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+#section05 .title{
+    margin: 0;
 }
 #section05 .contact h3 {
     font-size: 5.6rem;
@@ -185,8 +189,10 @@
     align-items:center;
     width:100%;
 }
-#section06 .community .video {
-    width:55%;
+#section06 .community .video{
+    /* border-radius:50px;
+    overflow: hidden; */
+    width:40%;
 }
 #section06 .community .short {
     display: flex;

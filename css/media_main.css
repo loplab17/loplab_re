@@ -1,0 +1,145 @@
+#wrap section{padding:0 15px;}
+#wrap #sitemap{padding:0 0px;}
+
+/* 반응형 디자인 */
+@media screen and (max-width:1550px) {
+
+    #nav .depth1 > li > a {
+    font-size: 1.4rem;  
+    }
+    #nav .depth1 > li {
+    margin: 0 50px;
+    }
+    .swiper1 .title h2 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    }
+    #sitemap .nav .depth1 {
+    margin-left: 50px;
+    }
+    #sitemap .nav .depth1 > li > a {
+    font-size: 3rem;
+    }
+    .swiper1 .title {
+    width: 90%;
+    }
+    #section05 .inner {
+    padding:50px 0;    
+    }
+    #footer .top_btn{
+    position:absolute;
+    right:200px; top:35%;
+    transform: translate(0, -50%);
+    cursor:pointer;
+    }
+}
+
+@media screen and (max-width:1300px){
+    .swiper1 .title {
+    text-align: center;
+    }
+    #section02 .buisness {
+    gap: 20px 20%;
+    justify-content: center;
+    }
+    #section02 .buisness article {
+    padding: 70px 10px;
+    }
+    #section06 .community {
+    display: block;
+    }
+    #section06 .community .video {
+        width: 100%;
+        margin-bottom:50px;
+        text-align: center;
+    }
+    #section06 .community .short {
+    width: 60%;
+    margin:0 auto;
+    text-align: center;
+    }
+    #section06 .community .short a {
+    font-size: 2rem;
+    padding: 50px 0;
+    }  
+    #section02, #section05 {
+    margin-bottom: 100px;
+    }
+    #section03{
+        margin-bottom:200px;
+    }
+}
+
+@media screen and (max-width:1060px){
+    #nav .logo img {
+    width: 140px;
+    }
+    #nav .depth1 > li {
+    margin: 0 20px;
+    }
+    #nav .depth1 .depth2 > li > a {
+    padding: 0px 30px 0px 30px;
+    }
+    .title h3 {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    }
+    .title p {
+    font-size: 1.2rem;
+    }
+    #section02 .title {
+    margin-bottom: 100px;
+    }
+    #section02 .buisness {
+    gap: 20px 18%;
+    }
+    #section02 .buisness article {
+    padding:60px 20px;
+    }
+    #section02 .buisness article h4 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    }
+    #section02 .buisness article p {
+    font-size: 1rem;
+    }
+    #section05 .contact h3 {
+    font-size: 4rem;
+    }   
+    #section05 .contact_wrap .contact_btn {
+    width: 280px;
+    height: 280px;
+    }
+    #section05 .contact_wrap .contact_btn span {
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 40px;
+    }
+    #section05 .contact_wrap .contact_btn a img{
+    width:60px;
+    }
+    #sitemap .container {
+    display: block;
+    }
+    #sitemap .container > div {
+    width: 100%;
+    }   
+    #sitemap .container .left {
+    display: none;
+    } 
+    #sitemap .nav .depth1 > li {
+    display: block;
+    }
+    #section01 .contact {
+    right: 2%;
+    bottom: 2%;
+    }
+    #section01 .contact img{
+    width:130px;
+    }
+    #footer .top_btn {
+    right: 50px;
+    }
+
+}

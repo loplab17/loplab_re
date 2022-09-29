@@ -40,7 +40,7 @@
         #nav .logo {
             margin:20px 0 0 50px;
         }
-        #nav .sitemap{margin:20px 50px 0 0px;}
+        #nav .sitemap{margin:20px 50px 0 0px; cursor: pointer;}
         #nav{
             position: relative;
             color: #3e3e3e;
@@ -107,9 +107,10 @@
             display: block;
             padding:20px 70px;
             text-align: left;
+            letter-spacing: -2px;
         }
         #nav .depth1 > li:hover .depth2{
-            border-top: 2px solid #C4C4C4;
+            border-top: 2px solid #dddddd;
             height:100px;
             opacity:1;
         }

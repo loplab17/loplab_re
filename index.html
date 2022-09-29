@@ -3,20 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1, user-scalable=yes,initial-scale=1.0">
         <title>(주)LOPLAB</title>
 
         <!-- Default -->
         <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="./js/jquery-migrate-3.0.0.js"></script>
-        <script type="text/javascript" src="./js/swiper_bundle_min.js"></script>
         <link rel="stylesheet" href="./css/swiper_bundle_min.css"/>
+        <script type="text/javascript" src="./js/swiper_bundle_min.js"></script>
+
 
         <!-- 수정파일 -->
-        <link rel="stylesheet" type="text/css" href="./css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./css/reset.css"><!--CSS초기화/ 폰트선언-->
         <link rel="stylesheet" type="text/css" href="./css/common.css">
+        <!-- 공통 CSS, HEADER / FOOTER 디자인은 COMMON에 있습니다. -->
         <link rel="stylesheet" type="text/css" href="./css/main.css">
+        <!-- 메인페이지 CSS -->
         <link rel="stylesheet" type="text/css" href="./css/swiper_custom.css">
+        <!-- 스와이서 슬라이더 커스텀 CSS -->
+        <link rel="stylesheet" type="text/css" href="./css/media_main.css">
+        <!-- 반응형 CSS -->
+
     </head>
 
     <body>
@@ -171,6 +178,8 @@
                         <!-- swiper 슬라이드 -->
                         <div class="mySwiper swiper2">
                             <div class="swiper-wrapper portfolio">
+                                <!-- js의 showing arry 함수를 .portfolio 클래스에 append해서 불러왔기 때문에 포트폴리오 목록은 주석처리 -->
+
                                 <!-- <div class="swiper-slide itemBox" data-item="all web soft">
                                     <img src="./portfolio/KOIZI.png" alt="koizi">
                                     <h3 class="p_title">KOIZI</h3>
@@ -347,8 +356,8 @@
             <section id="section05">
                 <div class="inner">
                     <div class="title contact">
-                        <h3>CONTACT</h3>
-                        <h3>US!</h3>
+                        <h3>CONTACT US!</h3>
+        
                         <p>지금까지 수 많은 고객들이 저희 (주)로플랩과 함께 성장하였습니다.</p>
                         <p>여러분의 멋진 아이디어를 로플랩에서  실현시켜보세요.</p>
                     </div>
@@ -371,8 +380,9 @@
                 </div>
                 <div class="community">
                         <article class="video">
-                            <iframe width="843" height="450" src="https://www.youtube.com/embed/kPNSE9K518k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         <iframe width="760" height="515" src="https://www.youtube.com/embed/kPNSE9K518k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </article>
+                        <!-- 홍보영상 아이프레임, 반응형 고민...  -->
                         <article class="short">
                         <a href="#상시채용공고페이지" class="notice">
                                 <p>공지사항 바로가기</p>

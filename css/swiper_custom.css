@@ -182,6 +182,7 @@ object-fit: cover;
     background: url(../icon/ic_prev.png) no-repeat;
     background-position:center;
     width:60px;height:60px;
+    top:65%;left:0;
     position: absolute;
     margin: 0 auto;
     }
@@ -189,7 +190,7 @@ object-fit: cover;
     background: url(../icon/ic_next.png) no-repeat;
     background-position:center;
     width:60px;height:60px;
-    right:0;
+    right:0;top:65%;
     }
     /* swiper2커스텀 끝 */
     
